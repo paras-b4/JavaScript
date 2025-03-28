@@ -1,0 +1,20 @@
+body{
+    background-color: palevioletred;
+}
+
+h1{
+    font-size: medium;
+    color: aquamarine;
+    background-color: blue;
+}
+
+div{
+    height: 20vh;
+    width: 20vh;
+    border: 4vh;
+    margin: 4%;
+    padding: 4%;
+
+    background-color: dodgerblue;
+    color: white;
+}

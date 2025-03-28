@@ -1,0 +1,32 @@
+#heading {
+    color: aliceblue;
+    background-color: yellow;
+}
+
+.classheading{
+    color: beige;
+    background-color: aquamarine;
+}
+
+body{
+    background-color: greenyellow;
+}
+
+#myId{
+    color: aliceblue;
+    background-color: blue;
+}
+
+.hello{
+    background-color: blueviolet;
+    color: wheat;
+}
+
+#box1{
+    height: 40vh;
+    width: 40vh;
+    border: 5px;
+    padding: 4%;
+    color:white;
+    background-color: blueviolet;
+}
