@@ -139,8 +139,6 @@ const getFacts=async ()=>{
 
         
     }
-  
-  
 }
 
 d.addEventListener('click',getFacts)

@@ -19,7 +19,7 @@
 
 
  */
-// console.dir("hello world") // use dir if use want to inspect dom element 
+// console.dir("hello world") // use dir if you want to inspect dom element 
 
 // variables is a type of container used to store/hold values 
 // js is dynamically types language means datatype are determined at runtime so we need not explicitly detrmine the type .
@@ -776,5 +776,118 @@
 // let n=delete alien.color
 // console.log(n) // delete will return true or false it deleted then true otherwise false 
 // console.log(alien['work exp'],alien.name +" "+alien.color+" "+alien[input]+" "+alien.tech1?.sub?.length )
+
+
+// let words ="My Name is Paras Yadav Currently learning JavaScript ".split(' ') // it will split on the basis of " " space and "," commas .
+// let [a,b,...c]=words
+// console.log(a)
+// console.log(b)
+// console.log(a,b,c)
+// let fruit="apple , mango , banana".split(",")
+// console.log(fruit)
+
+// let nums=new Map()
+// nums.set(1,"11")
+// nums.set(2,'22')
+// nums.set(3,'33')
+// nums.set(4,'44')
+// nums.set(5,'55')
+// nums.set(6,'66')
+// nums.set(7,'77')
+// let article=[
+//     {
+//         'nums':{
+//             "id":'22',
+//             'p':"11",
+//             'a':'33',
+//             'r':'44',
+//             'a':'55',
+//             's':'66',
+//             7:'77'
+
+//     }
+// }
+// ]
+// article.map((e)=>{
+//     console.log(e.nums.id)
+//    console.log(e.nums[7])
+//     // console.log(e.nums.7) did not work because its is a number 
+//     console.log(e.nums.p)
+        
+// })
+// let articles= [
+//     {
+
+
+      
+//         "source": {
+//           1: "bbc-sport",
+//           "name": "BBC Sport"
+//         },
+//         "author": null,
+//         "title": "IPL 2025 results: Australia's Mitchell Starc takes first five-wicket haul in T20s as DC beat SRH",
+//         "description": "Mitchell Starc takes his first five-wicket haul in T20 cricket as Delhi Capitals cruise to a seven-wicket win over Sunrisers Hyderabad in the Indian Premier League.",
+//         "url": "http://www.bbc.co.uk/sport/cricket/articles/cjwv37241d7o",
+//         "urlToImage": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/0c2c/live/8d7e46d0-0d60-11f0-8cb6-ef080be5aa48.jpg",
+//         "publishedAt": "2025-03-30T13:52:22.875376Z",
+//         "content": "Mitchell Starc took his first five-wicket haul in T20 cricket as Delhi Capitals cruised to a seven-wicket win over Sunrisers Hyderabad in the Indian Premier League.\r\nThe 35-year-old Australia left-ar… [+1532 chars]"
+//     }
+// ]
+
+//       articles.map((e)=>{
+//         console.log(e.source[1])
+            
+//     })
+
+
+// this is called loosly typed language means variable can change their type automatically 
+// let x='paras'
+// x=10
+// console.log(x)
+
+// Hoisting 
+
+// let num=4
+// console.log(num)
+
+// // console.log(num1)
+// // console.log(num2)
+// console.log(v)
+// var v=10 // if we try to print variable before its initilization . then with var it prints undefined 
+// const num2=6 // if we try to print variable before its initilization . then with const it gives error  
+// let num1=4 // if we try to print variable before its initilization . then with let it gives error .
+
+// Hoisting with functions 
+// 1
+
+// it will not give error
+// greet()
+// function greet()
+// {
+//    console.log('hello paras')
+// }
+
+// 2
+
+// let greet=function f(){
+//   return "hello good morning "
+// }
+// console.log(greet())
+
+// 3
+
+// it will give error .
+// console.log(greet())
+// let greet=function f(){
+//   return "hello good morning "
+// }
+
+// 4
+
+// it also gives error .
+// console.log(greet())
+// let greet=()=>{
+//   return 'hello paras'
+// }
 
 

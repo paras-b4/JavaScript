@@ -12,7 +12,7 @@
 // })
 
 // let n=document.querySelector('#btn1')
-// n.onclick=((e)=>{
+// n.ondblclick=((e)=>{
 //     console.log(e)
 //     console.log(e.type)
 //     console.log(e.target)
@@ -76,7 +76,7 @@ btn1.addEventListener('click',(e)=>{
     
 })
 btn1.addEventListener('click',handler)
-btn1.removeEventListener('click',handler)
+ btn1.removeEventListener('click',handler)
 
 
 // dark-light mode button 
